@@ -228,27 +228,7 @@ npm run lint            # ESLint checks
 
 ---
 
-## 8. What We Could Extend
-
-### Optional Challenges Not Implemented
-1. **Challenge A (Filter Persistence)** — `useFilterStore` hook with sessionStorage
-   - Would add complex state management for filters across pages
-   - Not critical for core Storybook library
-   
-2. **Challenge C (Query Config)** — `createQueryConfig` utility for TanStack Query
-   - Would benefit actual data-fetching components
-   - Out of scope for Storybook demo (uses mock data)
-
-### Future Improvements
-- Dark mode support via CSS variables
-- Accessibility audit (WCAG 2.1 AA compliance)
-- Performance monitoring (Lighthouse scores)
-- Component snapshot testing
-- Figma plugin integration for design-to-code sync
-
----
-
-## 9. Key Takeaways
+## 8. Key Takeaways
 
 ✅ **16 components** organized in atomic hierarchy  
 ✅ **Comprehensive stories** with variants, controls, docs, tests  
