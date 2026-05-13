@@ -258,7 +258,7 @@ const CustomerListPage = () => {
 				}}
 				emptyStateConfig={{
 					heading: 'Customers',
-					description: 'Create a plan to display pricing and start billing customers.',
+					description: 'Add your first customer to start managing subscriptions and billing.',
 					buttonLabel: 'Create Customer',
 					buttonAction: handleCreateCustomer,
 					tags: ['Customers'],
